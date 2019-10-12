@@ -19,7 +19,7 @@
     ],
 
     "default_layers": {
-        "enabled": true,
+        "enabled": false,
         "urls": ["assets/enterprise-attack.json"]
 //        "urls": ["assets/enterprise-attack.json", "https://raw.githubusercontent.com/mitre-attack/attack-navigator/master/layers/data/samples/Bear_APT.json"]
     },
