@@ -1,0 +1,2247 @@
+{
+  "id": "bundle--aeb7a010-db0e-4044-a475-262cbeb719db",
+  "objects": [
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Defining the desired end state that is the set of required conditions that defines achievement of all objectives.",
+      "external_references": [
+        {
+          "external_id": "Defining the desired end state that is the set of required conditions that defines achievement of all objectives.",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA01.md"
+        }
+      ],
+      "id": "x-mitre-tactic--b0ca720c-faaa-46d2-a3a3-b3c9c1b3aa42",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Strategic Planning",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Strategic Planning"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Objectives should be clearly defined, measurable, and achievable. Achieving objectives ties execution of tactical tasks to reaching the desired end state. There are four primary considerations:\n- Each desired effect should link directly to one or more objectives\n- The effect should be measurable\n- The objective statement should not specify the way and means of accomplishment\n- The effect should be distinguishable from the objective it supports as a condition for success, not as another objective or task.",
+      "external_references": [
+        {
+          "external_id": "Objectives should be clearly defined, measurable, and achievable. Achieving objectives ties execution of tactical tasks to reaching the desired end state. There are four primary considerations:\n- Each desired effect should link directly to one or more objectives\n- The effect should be measurable\n- The objective statement should not specify the way and means of accomplishment\n- The effect should be distinguishable from the objective it supports as a condition for success, not as another objective or task.",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA02.md"
+        }
+      ],
+      "id": "x-mitre-tactic--83be8440-597f-4119-8095-6488ab1826a5",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Objective Planning",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Objective Planning"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Develop online and offline users and agents, including automated personas",
+      "external_references": [
+        {
+          "external_id": "Develop online and offline users and agents, including automated personas",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA03.md"
+        }
+      ],
+      "id": "x-mitre-tactic--c642c0a3-fc06-46cd-9eab-0a526fb54b24",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Develop People",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Develop People"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Develop online and offline communities and transmission methods and cultivate assets and unwitting agents",
+      "external_references": [
+        {
+          "external_id": "Develop online and offline communities and transmission methods and cultivate assets and unwitting agents",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA04.md"
+        }
+      ],
+      "id": "x-mitre-tactic--941d5e63-de13-4c7c-ba3c-ad522ec2eee2",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Develop Networks",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Develop Networks"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Target very specific populations of people",
+      "external_references": [
+        {
+          "external_id": "Target very specific populations of people",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA05.md"
+        }
+      ],
+      "id": "x-mitre-tactic--3e805924-9ffb-412b-bfd8-e59ce4942dec",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Microtargeting",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Microtargeting"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create and acquire content used in incident",
+      "external_references": [
+        {
+          "external_id": "Create and acquire content used in incident",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA06.md"
+        }
+      ],
+      "id": "x-mitre-tactic--819c0798-576d-490f-bdd8-c6f5edf41e5f",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Develop Content",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Develop Content"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Set up specific delivery, amplification and manipulation channels for incident, including channels to attack. Each channel serves as an atomic surface (test bed) location/site for adversary to hide/conceal the work/content that goes into setting up for this channel and/or other specific platforms.  Contributes to building out a connected ecosystem where this channel can operate as part of a whole campaign/incident",
+      "external_references": [
+        {
+          "external_id": "Set up specific delivery, amplification and manipulation channels for incident, including channels to attack. Each channel serves as an atomic surface (test bed) location/site for adversary to hide/conceal the work/content that goes into setting up for this channel and/or other specific platforms.  Contributes to building out a connected ecosystem where this channel can operate as part of a whole campaign/incident",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA07.md"
+        }
+      ],
+      "id": "x-mitre-tactic--6ca21c13-ae9a-4953-9a96-a9c11d28b0c5",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Channel Selection",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Channel Selection"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Release content on a targetted small scale, prior to general release, including releasing seed narratives",
+      "external_references": [
+        {
+          "external_id": "Release content on a targetted small scale, prior to general release, including releasing seed narratives",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA08.md"
+        }
+      ],
+      "id": "x-mitre-tactic--88a60e37-3fd7-4cbd-95c6-caab53af658e",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Pump Priming",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Pump Priming"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Release content to general public or push to larger population",
+      "external_references": [
+        {
+          "external_id": "Release content to general public or push to larger population",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA09.md"
+        }
+      ],
+      "id": "x-mitre-tactic--c21a0330-1f4e-4af2-b4fd-b5d1163c6619",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Exposure",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Exposure"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Move incident into offline world",
+      "external_references": [
+        {
+          "external_id": "Move incident into offline world",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA10.md"
+        }
+      ],
+      "id": "x-mitre-tactic--4ecf0ed3-e270-41c0-ad1b-69addbb3eb1b",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Go Physical",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Go Physical"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Keep incident 'alive', beyond the incident creators' efforts",
+      "external_references": [
+        {
+          "external_id": "Keep incident 'alive', beyond the incident creators' efforts",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA11.md"
+        }
+      ],
+      "id": "x-mitre-tactic--a4082f3a-30ed-42a0-8d17-ff88a7d4f192",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Persistence",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Persistence"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Measure effectiveness of incident, for use in planning future events",
+      "external_references": [
+        {
+          "external_id": "Measure effectiveness of incident, for use in planning future events",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/tactics/TA12.md"
+        }
+      ],
+      "id": "x-mitre-tactic--9e3e0d74-c194-4f98-9697-604b59c9ffd1",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Measure Effectiveness",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "x-mitre-tactic",
+      "x_mitre_shortname": "Measure Effectiveness"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Nimmo's \"4Ds of propaganda\": dismiss, distort, distract, dismay (MisinfosecWG added divide in 2019). Misinformation promotes an agenda by advancing narratives supportive of that agenda. This is most effective when the advanced narrative pre-dates the revelation of the specific misinformation content. But this is often not possible.",
+      "external_references": [
+        {
+          "external_id": "T0001",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0001.md"
+        }
+      ],
+      "id": "attack-pattern--bbec20d1-9f02-4ef0-aedf-a74a99af40ea",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "5Ds (dismiss, distort, distract, dismay, divide)",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Organize citizens around pro-state messaging. Paid or volunteer groups coordinated to push state propaganda (examples include 2016 Diba Facebook Expedition, coordinated to overcome China’s Great Firewall to flood the Facebook pages of Taiwanese politicians and news agencies with a pro-PRC message).",
+      "external_references": [
+        {
+          "external_id": "T0002",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0002.md"
+        }
+      ],
+      "id": "attack-pattern--c690a787-d3e9-4523-b263-281416257638",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Facilitate State Propaganda",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use or adapt existing narrative themes, where narratives are the baseline stories of a target audience. Narratives form the bedrock of our worldviews. New information is understood through a process firmly grounded in this bedrock. If new information is not consitent with the prevailing narratives of an audience, it will be ignored. Effective campaigns will frame their misinformation in the context of these narratives. Highly effective campaigns will make extensive use of audience-appropriate archetypes and meta-narratives throughout their content creation and amplifiction practices. Examples include midwesterners are generous, Russia is under attack from outside.",
+      "external_references": [
+        {
+          "external_id": "T0003",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0003.md"
+        }
+      ],
+      "id": "attack-pattern--c5330c08-b7a0-4b36-9ba3-30d4aeccbc48",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Leverage Existing Narratives",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Advance competing narratives connected to same issue ie: on one hand deny incident while at same time expresses dismiss. MH17 (example) \"Russian Foreign Ministry again claimed that “absolutely groundless accusations are put forward against the Russian side, which are aimed at discrediting Russia in the eyes of the international community\" (deny); \"The Dutch MH17 investigation is biased, anti-Russian and factually inaccurate\" (dismiss). \n\nSuppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centered on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on.\n\nThese competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the \"firehose of misinformation\" approach.",
+      "external_references": [
+        {
+          "external_id": "T0004",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0004.md"
+        }
+      ],
+      "id": "attack-pattern--b2bfc3d5-b46d-4e47-a7c2-5ad69d0a92b6",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Competing Narratives",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Recon/research to identify \"the source of power that provides moral or physical strength, freedom of action, or will to act.\" Thus, the center of gravity is usually seen as the \"source of strength\". Includes demographic and network analysis of communities",
+      "external_references": [
+        {
+          "external_id": "T0005",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0005.md"
+        }
+      ],
+      "id": "attack-pattern--89f13ef5-9403-46e9-834b-299a11b506e3",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Center of Gravity Analysis",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "The promotion of beneficial master narratives is perhaps the most effective method for achieving long-term strategic narrative dominance. From a \"whole of society\" perpective the promotion of the society's core master narratives should occupy a central strategic role. From a misinformation campaign / cognitive security perpectve the tactics around master narratives center more precisely on the day-to-day promotion and reinforcement of this messaging. In other words, beneficial, high-coverage master narratives are a central strategic goal and their promotion consitutes an ongoing tactical struggle carried out at a whole-of-society level. \n\nBy way of example, major powers are promoting master narratives such as:\n* \"Huawei is detetmined to build trustworthy networks\"\n* \"Russia is the victim of bullying by NATO powers\"\n* \"USA is guided by its founding principles of liberty and egalitarianism\"\n\nTactically, their promotion covers a broad spectrum of activities both on- and offline.",
+      "external_references": [
+        {
+          "external_id": "T0006",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0006.md"
+        }
+      ],
+      "id": "attack-pattern--f97ec49e-9347-4a95-8591-f8bdf747c689",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create Master Narratives",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create key social engineering assets needed to amplify content, manipulate algorithms, fool public and/or specific incident/campaign targets. \n\nComputational propaganda depends substantially on false perceptions of credibility and acceptance. By creating fake users and groups with a variety of interests and commitments, attackers can ensure that their messages both come from trusted sources and appear more widely adopted than they actually are. \n\nExamples: Ukraine elections (2019) circumvent Facebook’s new safeguards by paying Ukrainian citizens to give a Russian agent access to their personal pages. EU Elections (2019) Avaaz reported more than 500 suspicious pages and groups to Facebook related to the three-month investigation of Facebook disinformation networks in Europe. Mueller report (2016) The IRA was able to reach up to 126 million Americans on Facebook via a mixture of fraudulent accounts, groups, and advertisements, the report says. Twitter accounts it created were portrayed as real American voices by major news outlets. It was even able to hold real-life rallies, mobilizing hundreds of people at a time in major cities like Philadelphia and Miami. ",
+      "external_references": [
+        {
+          "external_id": "T0007",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0007.md"
+        }
+      ],
+      "id": "attack-pattern--86e6f818-094c-4348-ad9e-cd853f7486dd",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create fake Social Media Profiles / Pages / Groups",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Modern computational propaganda makes use of a cadre of imposter news sites spreading globally. These sites, sometimes motivated by concerns other than propaganda--for instance, click-based revenue--often have some superficial markers of authenticity, such as naming and site-design. But many can be quickly exposed with reference to their owenership, reporting history and adverstising details. A prominent case from the 2016 era was the _Denver Guardian_, which purported to be a local newspaper in Colorado and specialized in negative stories about Hillary Clinton.",
+      "external_references": [
+        {
+          "external_id": "T0008",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0008.md"
+        }
+      ],
+      "id": "attack-pattern--3f8e395f-f930-48b9-9354-3ec124cb15f9",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create fake or imposter news sites",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Stories planted or promoted in computational propaganda operations often make use of experts fabricated from whole cloth, sometimes specifically for the story itself. For example, in the Jade Helm conspiracy theory promoted by SVR in 2015, a pair of experts--one of them naming himself a “Military Intelligence Analyst / Russian Regional CME” and the other a “Geopolitical Strategist, Journalist & Author”--pushed the story heavily on LinkedIn.",
+      "external_references": [
+        {
+          "external_id": "T0009",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0009.md"
+        }
+      ],
+      "id": "attack-pattern--08eac52e-5e16-4c87-b5a5-3f12e156a8d1",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create fake experts",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Cultivate propagandists for a cause, the goals of which are not fully comprehended, and who are used cynically by the leaders of the cause. Independent actors use social media and specialised web sites to strategically reinforce and spread messages compatible with their own. Their networks are infiltrated and used by state media disinformation organisations to amplify the state’s own disinformation strategies against target populations. Many are traffickers in conspiracy theories or hoaxes, unified by a suspicion of Western governments and mainstream media. Their narratives, which appeal to leftists hostile to globalism and military intervention and nationalists against immigration, are frequently infiltrated and shaped by state-controlled trolls and altered news items from agencies such as RT and Sputnik. Also know as \"useful idiots\" or \"unwitting agents\".",
+      "external_references": [
+        {
+          "external_id": "T0010",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0010.md"
+        }
+      ],
+      "id": "attack-pattern--4f7afa39-fe4e-4b99-9a62-2216383bf125",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Cultivate useful idiots",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Hack or take over legimate accounts to distribute misinformation or damaging content. Examples include Syrian Electronic Army (2013) series of false tweets from a hijacked Associated Press Twitter account claiming that President Barack Obama had been injured in a series of explosions near the White House. The false report caused a temporary plunge of 143 points on the Dow Jones Industrial Average.",
+      "external_references": [
+        {
+          "external_id": "T0011",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0011.md"
+        }
+      ],
+      "id": "attack-pattern--ffe7483a-91d9-4763-b44c-f8d94c12b659",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Hijack legitimate account",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use anonymous social media profiles. Examples include page or group administrators, masked \"whois\" website directory data, no bylines connected to news article, no masthead connect to news websites. \n\nExample is 2016 @TEN_GOP profile where the actual Tennessee Republican Party tried unsuccessfully for months to get Twitter to shut it down, and 2019 Endless Mayfly is an Iran-aligned network of inauthentic personas and social media accounts that spreads falsehoods and amplifies narratives critical of Saudi Arabia, the United States, and Israel.",
+      "external_references": [
+        {
+          "external_id": "T0012",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0012.md"
+        }
+      ],
+      "id": "attack-pattern--4641aa82-bccf-46b8-ad69-6203a8a221ba",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Use concealment",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0013",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0013.md"
+        }
+      ],
+      "id": "attack-pattern--92b38a46-650c-4da1-bfc4-f8d939c387b5",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create fake websites",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Generate revenue through online funding campaigns. e.g. Gather data, advance credible persona via Gofundme; Patreon; or via fake website connecting via PayPal or Stripe. (Example 2016) #VaccinateUS Gofundme campaigns to pay for Targetted facebook ads (Larry Cook, targetting Washington State mothers, $1,776 to boost posts over 9 months).",
+      "external_references": [
+        {
+          "external_id": "T0014",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0014.md"
+        }
+      ],
+      "id": "attack-pattern--198604ae-25f8-41e5-8dc1-8c12c9bb8eef",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create funding campaigns",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Many incident-based campaigns will create a hashtag to promote their fabricated event (e.g. #ColumbianChemicals to promote a fake story about a chemical spill in Louisiana). \n\nCreating a hashtag for an incident can have two important effects:\n1. Create a perception of reality around an event. Certainly only \"real\" events would be discussed in a hashtag. After all, the event has a name!\n2. Publicize the story more widely through trending lists and search behavior \n\nAsset needed to direct/control/manage \"conversation\" connected to launching new incident/campaign with new hashtag for applicable social media sites ie: Twitter, LinkedIn)",
+      "external_references": [
+        {
+          "external_id": "T0015",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0015.md"
+        }
+      ],
+      "id": "attack-pattern--a04050a9-6520-469e-bf1b-ac10d170baaa",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create hashtag",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create attention grabbing headlines (outrage, doubt, humor) required to drive traffic & engagement. (example 2016) “Pope Francis shocks world, endorses Donald Trump for president.” (example 2016) \"FBI director received millions from Clinton Foundation, his brother’s law firm does Clinton’s taxes”. This is a key asset",
+      "external_references": [
+        {
+          "external_id": "T0016",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0016.md"
+        }
+      ],
+      "id": "attack-pattern--dbee711f-88a2-45e5-bf89-c7cce724b25a",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Clickbait",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Drive traffic/engagement to funding campaign sites; helps provide measurable metrics to assess conversion rates",
+      "external_references": [
+        {
+          "external_id": "T0017",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0017.md"
+        }
+      ],
+      "id": "attack-pattern--2f4d9b93-c07e-48cb-8e44-92cf0626585a",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Promote online funding",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create or fund advertisements targeted at specific populations",
+      "external_references": [
+        {
+          "external_id": "T0018",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0018.md"
+        }
+      ],
+      "id": "attack-pattern--488077a4-d0f9-4502-a7f5-9557e65a97a5",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Paid targeted ads",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Flood social channels; drive traffic/engagement to all assets; create aura/sense/perception of pervasiveness/consensus (for or against or both simultaneously) of an issue or topic. \"Nothing is true, but everything is possible.\" Akin to astroturfing campaign.",
+      "external_references": [
+        {
+          "external_id": "T0019",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0019.md"
+        }
+      ],
+      "id": "attack-pattern--2726ada9-2308-4956-abf9-4d14a4130e66",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Generate information pollution",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Iteratively test incident performance (messages, content etc), e.g. A/B test headline/content enagagement metrics; website and/or funding campaign conversion rates",
+      "external_references": [
+        {
+          "external_id": "T0020",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0020.md"
+        }
+      ],
+      "id": "attack-pattern--2af31ad5-8b59-47cc-b9b9-7c7dfb46a14b",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Trial content",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Memes are one of the most important single artefact types in all of computational propaganda. Memes in this framework denotes the narrow image-based definition. But that naming is no accident, as these items have most of the important properties of Dawkins' original conception as a self-replicating unit of culture. Memes pull together reference and commentary; image and narrative; emotion and message. Memes are a powerful tool and the heart of modern influence campaigns.",
+      "external_references": [
+        {
+          "external_id": "T0021",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0021.md"
+        }
+      ],
+      "id": "attack-pattern--db94618b-d734-4b82-9b8d-86047935250f",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Memes",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "\"Conspiracy narratives appeal to the human desire for explanatory order, by invoking the participation of poweful (often sinister) actors in pursuit of their own political goals. These narratives are especially appealing when an audience is low-information, marginalized or otherwise inclined to reject the prevailing explanation. Conspiracy narratives are an important component of the \"\"firehose of falsehoods\"\" model.   \n\nExample: QAnon: conspiracy theory is an explanation of an event or situation that invokes a conspiracy by sinister and powerful actors, often political in motivation, when other explanations are more probable \"",
+      "external_references": [
+        {
+          "external_id": "T0022",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0022.md"
+        }
+      ],
+      "id": "attack-pattern--45a9ac83-fe51-4b35-9731-eb72f27e0774",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Conspiracy narratives",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Change, twist, or exaggerate existing facts to construct a narrative that differs from reality. Examples: images and ideas can be distorted by being placed in an improper content",
+      "external_references": [
+        {
+          "external_id": "T0023",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0023.md"
+        }
+      ],
+      "id": "attack-pattern--f277819a-d353-4c6e-9147-eb4de7cbf82e",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Distort facts",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create fake videos and/or images by manipulating existing content or generating new content (e.g. deepfakes). Examples include Pelosi video (making her appear drunk) and photoshoped shark on flooded streets of Houston TX.",
+      "external_references": [
+        {
+          "external_id": "T0024",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0024.md"
+        }
+      ],
+      "id": "attack-pattern--9345b547-1515-4bfa-8efb-592916304f4d",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create fake videos and images",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Obtain documents (eg by theft or leak), then alter and release, possibly among factual documents/sources. \n\nExample (2019) DFRLab report \"Secondary Infektion” highlights incident with key asset being a forged “letter” created by the operation to provide ammunition for far-right forces in Europe ahead of the election.",
+      "external_references": [
+        {
+          "external_id": "T0025",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0025.md"
+        }
+      ],
+      "id": "attack-pattern--d686b265-0406-4fb5-b670-0b85592b9961",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Leak altered documents",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create fake academic research. Example: fake social science research is often aimed at hot-button social issues such as gender, race and sexuality. Fake science research can target Climate Science debate or pseudoscience like anti-vaxx",
+      "external_references": [
+        {
+          "external_id": "T0026",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0026.md"
+        }
+      ],
+      "id": "attack-pattern--612bee95-786e-40d4-b16f-a944c8d4217a",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create fake research",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Adapting existing narratives to current operational goals is the tactical sweet-spot for an effective misinformation campaign. Leveraging existing narratives is not only more effective, it requires substantially less resourcing, as the promotion of new master narratives operates on a much larger scale, both time and scope. Fluid, dynamic & often interchangable key master narratives can be (\"The morally corrupt West\") adapted to divisive (LGBT proganda) or to distort (individuals working as CIA operatives). For Western audiences, different but equally powerful framings are available, such as \"USA has a fraught history in race relations, espically in crimincal justice areas.\"",
+      "external_references": [
+        {
+          "external_id": "T0027",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0027.md"
+        }
+      ],
+      "id": "attack-pattern--466950c4-e1b9-4e0f-909d-7d9197a89339",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Adapt existing narratives",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "\"Misinformation promotes an agenda by advancing narratives supportive of that agenda. This is most effective when the advanced narrative pre-dates the revelation of the specific misinformation content. But this is often not possible. \n\nSuppressing or discouraging narratives already spreading requires an alternative. The most simple set of narrative techniques in response would be the construction and promotion of contradictory alternatives centered on denial, deflection, dismissal, counter-charges, excessive standards of proof, bias in prohibition or enforcement, and so on. \n\nThese competing narratives allow loyalists cover, but are less compelling to opponents and fence-sitters than campaigns built around existing narratives or highly explanatory master narratives. Competing narratives, as such, are especially useful in the \"\"firehose of misinformation\"\" approach.\"",
+      "external_references": [
+        {
+          "external_id": "T0028",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0028.md"
+        }
+      ],
+      "id": "attack-pattern--d5e7f6ec-7609-447a-bbe2-053bf8ca9e89",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Create competing narratives",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create fake online polls, or manipulate existing online polls. Examples: flooding FCC with comments; creating fake engagement metrics of Twitter/Facebook polls to manipulate perception of given issue. Data gathering tactic to target those who engage, and potentially their networks of friends/followers as well",
+      "external_references": [
+        {
+          "external_id": "T0029",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0029.md"
+        }
+      ],
+      "id": "attack-pattern--e3d7f2ff-230f-41a1-814b-cc3efbc1e552",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Manipulate online polls",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create other assets/dossier/cover/fake relationships and/or connections or documents, sites, bylines, attributions, to establish/augment/inflate crediblity/believability",
+      "external_references": [
+        {
+          "external_id": "T0030",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0030.md"
+        }
+      ],
+      "id": "attack-pattern--8087bc5b-0df7-488a-b08d-b9bdd66f2bba",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Backstop personas",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use YouTube as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0031",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0031.md"
+        }
+      ],
+      "id": "attack-pattern--f2b6c52c-0690-4c6a-933a-003e26fb3717",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "YouTube",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use Reddit as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0032",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0032.md"
+        }
+      ],
+      "id": "attack-pattern--b6a7f80f-ec0a-4b07-8cb5-be1617ed66bc",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Reddit",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use Instagram as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0033",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0033.md"
+        }
+      ],
+      "id": "attack-pattern--0e0049f6-c6f2-4ef9-876f-67d2ba966ba0",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Instagram",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use LinkedIn as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0034",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0034.md"
+        }
+      ],
+      "id": "attack-pattern--40debc32-8bd7-4c3a-9f88-a6a653deefbe",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "LinkedIn",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use Pinterest as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0035",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0035.md"
+        }
+      ],
+      "id": "attack-pattern--41fa70e4-e171-4301-b506-727cfc17f60b",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Pinterest",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use WhatsApp as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0036",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0036.md"
+        }
+      ],
+      "id": "attack-pattern--a5cd4ab3-a7c0-4bef-808c-924376f94a1c",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "WhatsApp",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use Facebook as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0037",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0037.md"
+        }
+      ],
+      "id": "attack-pattern--7e5d37a4-78c1-42bf-91f5-4a320081c0c5",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Facebook",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use Twitter as a narrative dissemination channel",
+      "external_references": [
+        {
+          "external_id": "T0038",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0038.md"
+        }
+      ],
+      "id": "attack-pattern--c6797bd6-2d79-4e00-913f-2db7b4ae2586",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Twitter",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0039",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0039.md"
+        }
+      ],
+      "id": "attack-pattern--d3c82d72-9ca3-40c6-b6c4-621568e803bc",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Bait legitimate influencers",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0040",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0040.md"
+        }
+      ],
+      "id": "attack-pattern--0a3f871b-0092-4184-9475-dd19f0cbae68",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Demand unsurmountable proof",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0041",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0041.md"
+        }
+      ],
+      "id": "attack-pattern--97ec2c01-0b58-4a69-8b10-071fb0bf7e9c",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Deny involvement",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0042",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0042.md"
+        }
+      ],
+      "id": "attack-pattern--b28b7c89-2fd7-4a74-980a-3f541a21a481",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Kernel of Truth",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0043",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0043.md"
+        }
+      ],
+      "id": "attack-pattern--94488364-85d8-4158-884e-4abdb13969b7",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Use SMS/ WhatsApp/ Chat apps",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0044",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0044.md"
+        }
+      ],
+      "id": "attack-pattern--3c5e0898-e62a-4d9e-829e-4b8f1ab457df",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Seed distortions",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use the fake experts that were set up in T0009. Pseudo-experts are disposable assets that often appear once and then disappear. Give \"credility\" to misinformation. Take advantage of credential bias",
+      "external_references": [
+        {
+          "external_id": "T0045",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0045.md"
+        }
+      ],
+      "id": "attack-pattern--5b89c27c-1807-471c-97db-7c9ccb8db6ee",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Use fake experts",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Manipulate content engagement metrics (ie: Reddit & Twitter) to influence/impact news search results (e.g. Google), also elevates RT & Sputnik headline into Google news alert emails. aka \"Black-hat SEO\" ",
+      "external_references": [
+        {
+          "external_id": "T0046",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0046.md"
+        }
+      ],
+      "id": "attack-pattern--05435818-64a3-4f2d-84db-2fea21001c9a",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Search Engine Optimization",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use political influence or the power of state to stop critical social media comments. Government requested/driven content take downs (see Google Transperancy reports. (Example 20190 Singapore Protection from Online Falsehoods and Manipulation Bill would make it illegal to spread \"false statements of fact\" in Singapore, where that information is \"prejudicial\" to Singapore's security or \"public tranquility.\" Or India/New Delhi has cut off services to Facebook and Twitter in Kashmir 28 times in the past five years, and in 2016, access was blocked for five months -- on the grounds that these platforms were being used for anti-social and \"anti-national\" purposes.",
+      "external_references": [
+        {
+          "external_id": "T0047",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0047.md"
+        }
+      ],
+      "id": "attack-pattern--89369fa6-fd6f-4d21-9eb2-0d47c44a153c",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Muzzle social media as a political force",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Intimidate, coerce, threaten critics/dissidents/journalists via trolling, doxing. Phillipines (example) Maria Ressa and Rappler journalists targeted Duterte regime, lawsuits, trollings, banned from the presidential palace where press briefings take place. 2017 Bot attack on five ProPublica Journalists.",
+      "external_references": [
+        {
+          "external_id": "T0048",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0048.md"
+        }
+      ],
+      "id": "attack-pattern--fd05e5c7-ac41-47bb-8fd4-5f24a651ffb7",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Cow online opinion leaders",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Flooding and/or mobbing social media channels feeds and/or hashtag with excessive volume of content to control/shape online conversations and/or drown out opposing points of view. Bots and/or patriotic trolls are effective tools to acheive this effect. \n\nExample (2018): bots flood social media promoting messages which support Saudi Arabia with intent to cast doubt on allegations that the kingdom was involved in Khashoggi’s death.",
+      "external_references": [
+        {
+          "external_id": "T0049",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0049.md"
+        }
+      ],
+      "id": "attack-pattern--3c95a7d4-3179-4bfd-8bd3-063cd2c481ec",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Flooding",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Deploy state-coordinated social media commenters and astroturfers. Both internal/domestic and external social media influence operations, popularized by China (50cent Army manage message inside the \"Great Firewall\") but also technique used by Chinese English-language social media influence operations are seeded by state-run media, which overwhelmingly present a positive, benign, and cooperative image of China. ",
+      "external_references": [
+        {
+          "external_id": "T0050",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0050.md"
+        }
+      ],
+      "id": "attack-pattern--3f53dcc0-695c-4352-a25c-77f524eb9a25",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Cheerleading domestic social media ops",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use government-paid social media commenters, astroturfers, chat bots (programmed to reply to specific key words/hashtags) influence online conversations, product reviews, web-site comment forums. (2017 example) the FCC was inundated with nearly 22 million public comments on net neutrality (many from fake accounts)",
+      "external_references": [
+        {
+          "external_id": "T0051",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0051.md"
+        }
+      ],
+      "id": "attack-pattern--5b4ccd48-bf90-484c-a341-1a253419c537",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Fabricate social media comment",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Create content/news/opinion web-sites to cross-post stories. Tertiary sites circulate and amplify narratives. Often these sites have no masthead, bylines or attribution. \n\nExamples of tertiary sites inculde Russia Insider, The Duran, geopolitica.ru, Mint Press News, Oriental Review, globalresearch.ca. \n\nExample (2019, Domestic news): Snopes reveals Star News Digital Media, Inc. may look like a media company that produces local news, but operates via undisclosed connections to political activism. \n\nExample (2018) FireEye reports on Iranian campaign that created between April 2018 and March 2019 sites used to spread inauthentic content from websites such as Liberty Front Press (LFP), US Journal, and Real Progressive Front during the US mid-terms.",
+      "external_references": [
+        {
+          "external_id": "T0052",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0052.md"
+        }
+      ],
+      "id": "attack-pattern--fd75c48e-4f28-48d8-b010-2773101283e1",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Tertiary sites amplify news",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use trolls to amplify narratives and/or manipulate narratives. Fake profiles/sockpuppets operating to support individuals/narratives from the entire political spectrum (left/right binary). Operating with increased emphasis on promoting local content and promoting real Twitter users generating their own, often divisive political content, as it's easier to amplify existing content than create new/original content. Trolls operate where ever there's a socially divisive issue (issues that can/are be politicized) e.g. BlackLivesMatter or MeToo",
+      "external_references": [
+        {
+          "external_id": "T0053",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0053.md"
+        }
+      ],
+      "id": "attack-pattern--783258fb-af94-4f26-9119-a379633faace",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Twitter trolls amplify and manipulate",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use bots to amplify narratives above algorithm thresholds. Bots are automated/programmed profiles designed to amplify content (ie: automatically retweet or like) and give appearance it's more \"popular\" than it is. They can operate as a network, to function in a coordinated/orchestrated manner. In some cases (more so now) they are an inexpensive/disposable assets used for minimal deployment as bot detection tools improve and platforms are more responsive.(example 2019) #TrudeauMustGo ",
+      "external_references": [
+        {
+          "external_id": "T0054",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0054.md"
+        }
+      ],
+      "id": "attack-pattern--634abb9a-21cf-4695-9e5d-e0e114b4e19f",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Twitter bots amplify",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Use the dedicated hashtag for the incident (e.g. #PhosphorusDisaster)",
+      "external_references": [
+        {
+          "external_id": "T0055",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0055.md"
+        }
+      ],
+      "id": "attack-pattern--5b76af3c-80f9-472a-9c13-ef94a3189d64",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Use hashtag",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Output information pollution (e.g. articles on an unreported false story/event) through channels controlled by or related to the incident creator. Examples include RT/Sputnik or antivax websites seeding stories.",
+      "external_references": [
+        {
+          "external_id": "T0056",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0056.md"
+        }
+      ],
+      "id": "attack-pattern--c476efa6-9419-4225-9f30-43f524a6ee03",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Dedicated channels disseminate information pollution",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Coordinate and promote real-world events across media platforms, e.g. rallies, protests, gatherings in support of incident narratives. Example: Facebook groups/pages coordinate/more divisive/polarizing groups and actvities into the public space. (Example) Mueller's report, highlights, the IRA organized political rallies in the U.S. using social media starting in 2015 and continued to coordinate rallies after the 2016 election",
+      "external_references": [
+        {
+          "external_id": "T0057",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0057.md"
+        }
+      ],
+      "id": "attack-pattern--f138905d-43e7-431a-a899-a9eab0b8f644",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Organise remote rallies and events",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Make incident content visible for a long time, e.g. by exploiting platform terms of service, or placing it where it's hard to remove or unlikely to be removed.",
+      "external_references": [
+        {
+          "external_id": "T0058",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0058.md"
+        }
+      ],
+      "id": "attack-pattern--ef291f7b-e4b2-48c5-9a32-c0cc866de751",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Legacy web content",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0059",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0059.md"
+        }
+      ],
+      "id": "attack-pattern--5409e9bd-7762-46bc-ba0e-0f72bcbbfd66",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Play the long game",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0060",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0060.md"
+        }
+      ],
+      "id": "attack-pattern--d5f98e74-727b-46ea-aa65-246a77eb1223",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Continue to amplify",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "Sell hats, t-shirts, flags and other branded content that's designed to be seen in the real world",
+      "external_references": [
+        {
+          "external_id": "T0061",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0061.md"
+        }
+      ],
+      "id": "attack-pattern--4102a664-31e9-4488-8bb0-8ae28a16a488",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "Sell merchandising",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0062",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0062.md"
+        }
+      ],
+      "id": "attack-pattern--eb2b85c5-71b2-4db0-bb93-52262d22c199",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0063",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0063.md"
+        }
+      ],
+      "id": "attack-pattern--c7ba05c3-9170-4d0b-a311-dc9190d8cff2",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0064",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0064.md"
+        }
+      ],
+      "id": "attack-pattern--8f4a7e41-94b9-4ea1-b7f5-d64fce8727de",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0065",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0065.md"
+        }
+      ],
+      "id": "attack-pattern--8685b211-7631-486a-bd50-e5037afb8e59",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0066",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0066.md"
+        }
+      ],
+      "id": "attack-pattern--32712e28-769e-424d-b17d-53d193af6116",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0067",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0067.md"
+        }
+      ],
+      "id": "attack-pattern--24c09b32-b1fd-40c6-8971-4b5625498e43",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0068",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0068.md"
+        }
+      ],
+      "id": "attack-pattern--46ad944b-aeb7-46e0-a56c-c0cb717cf281",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0069",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0069.md"
+        }
+      ],
+      "id": "attack-pattern--3008c973-cd28-4ab2-923a-7f4b5f299321",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0070",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0070.md"
+        }
+      ],
+      "id": "attack-pattern--9280aa4b-4306-4a34-a5ed-c4026e241006",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0071",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0071.md"
+        }
+      ],
+      "id": "attack-pattern--3c0395ea-ee8b-4107-9e21-849346bf47a4",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0072",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0072.md"
+        }
+      ],
+      "id": "attack-pattern--ad004d1f-b616-4bf1-9207-a3fca61a1015",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0073",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0073.md"
+        }
+      ],
+      "id": "attack-pattern--6218416c-cc61-4a35-a36d-682784faaed2",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0074",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0074.md"
+        }
+      ],
+      "id": "attack-pattern--09754c96-fc8c-4e1a-a37d-9d542d45b733",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0075",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0075.md"
+        }
+      ],
+      "id": "attack-pattern--94a10360-f048-4a2b-a5e5-0be207c6b7e6",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0076",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0076.md"
+        }
+      ],
+      "id": "attack-pattern--2d730a21-8d58-4658-a155-b2b30f3d4fac",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0077",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0077.md"
+        }
+      ],
+      "id": "attack-pattern--c686d8fa-6849-4450-a5f2-e331b1cd37ba",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0078",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0078.md"
+        }
+      ],
+      "id": "attack-pattern--603038f9-f9b5-41bc-8e54-17f3b25d1e67",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0079",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0079.md"
+        }
+      ],
+      "id": "attack-pattern--2d4ba1e4-4d09-4455-a51d-3c3c837008a7",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0080",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0080.md"
+        }
+      ],
+      "id": "attack-pattern--d49f4053-6c23-4063-af72-1b758830e0be",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0081",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0081.md"
+        }
+      ],
+      "id": "attack-pattern--2e0a1160-4586-4da9-9570-e508a4eff1be",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0082",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0082.md"
+        }
+      ],
+      "id": "attack-pattern--86172c70-41ea-433e-af83-3bceffc99d6c",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0083",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0083.md"
+        }
+      ],
+      "id": "attack-pattern--ab7a67c1-46c3-47d3-a7f1-79978699955f",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0084",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0084.md"
+        }
+      ],
+      "id": "attack-pattern--6c8c155d-59c9-4b09-bbdd-42c098f683e8",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0085",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0085.md"
+        }
+      ],
+      "id": "attack-pattern--20ee0453-5894-422b-97da-b6849b2c09d8",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0086",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0086.md"
+        }
+      ],
+      "id": "attack-pattern--96339dd0-65c3-4894-a3f8-27278d8d2809",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0087",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0087.md"
+        }
+      ],
+      "id": "attack-pattern--1e24e97e-c36d-49c2-8c91-ba77db30b6d7",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0088",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0088.md"
+        }
+      ],
+      "id": "attack-pattern--d833fc64-e5e1-4764-b824-9870f41ffc10",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0089",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0089.md"
+        }
+      ],
+      "id": "attack-pattern--aaf04a9e-1818-4982-8f1e-3bd39efc42fc",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0090",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0090.md"
+        }
+      ],
+      "id": "attack-pattern--bcc30afe-d04d-422b-ad56-b2d8ddd2caf3",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0091",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0091.md"
+        }
+      ],
+      "id": "attack-pattern--df29096c-272c-43ea-baf6-9417f3d5f18a",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0092",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0092.md"
+        }
+      ],
+      "id": "attack-pattern--e2bc8ab4-b3ef-4dd2-800a-925aaca28c01",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0093",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0093.md"
+        }
+      ],
+      "id": "attack-pattern--c44ce17b-5d68-43b4-8c77-55fa4f20abe9",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0094",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0094.md"
+        }
+      ],
+      "id": "attack-pattern--2051f9f4-6f99-42d3-b76e-ffdb2a76814d",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0095",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0095.md"
+        }
+      ],
+      "id": "attack-pattern--37db67c3-dba8-4b9c-b8a6-caba38e82284",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0096",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0096.md"
+        }
+      ],
+      "id": "attack-pattern--dae7227b-ffb5-40d4-9a12-e0b5112253fe",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0097",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0097.md"
+        }
+      ],
+      "id": "attack-pattern--b1a97c87-9c75-4038-aac5-c741258df934",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0098",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0098.md"
+        }
+      ],
+      "id": "attack-pattern--418fdfc7-1471-4577-8018-ba1979f031e1",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0099",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0099.md"
+        }
+      ],
+      "id": "attack-pattern--f1b07a0b-3ed8-4c10-8f86-787de6fb3b96",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    },
+    {
+      "created": "2019-10-09T16:58:32.634193",
+      "created_by_ref": "identity--670e8490-07ce-4469-b94c-f187d55f040a",
+      "description": "nan",
+      "external_references": [
+        {
+          "external_id": "T0100",
+          "source_name": "amitt-attack",
+          "url": "https://github.com/misinfosecproject/amitt_framework/blob/master/techniques/T0100.md"
+        }
+      ],
+      "id": "attack-pattern--825162d0-47a7-45be-b893-43acaf743bb0",
+      "modified": "2019-10-09T16:58:32.634193",
+      "name": "nan",
+      "object_marking_refs": [
+        "marking-definition--2d239122-de7a-4ca4-93c7-17a36d606fb4"
+      ],
+      "type": "attack-pattern",
+      "x_mitre_version": "3.0"
+    }
+  ],
+  "spec_version": "2.0",
+  "type": "bundle"
+}
