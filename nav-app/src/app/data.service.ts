@@ -23,6 +23,7 @@ export class DataService {
     private totalTacticsOrder: String[] = [];
 
     // URLs in case config file doesn't load properly
+    private amitt_URL: string = "assets/amitt-attack.json";
     private enterpriseAttackURL: string = "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json";
     private pre_attack_URL: string = "https://raw.githubusercontent.com/mitre/cti/master/pre-attack/pre-attack.json";
     private mobileDataURL: string = "https://raw.githubusercontent.com/mitre/cti/master/mobile-attack/mobile-attack.json";
@@ -31,7 +32,8 @@ export class DataService {
     private taxiiURL: string = '';
     private taxiiCollections: String[] = [];
 
-    setUpURLs(eAttackURL, preAttackURL, mURL, useTAXIIServer, taxiiURL, taxiiCollections){
+    setUpURLs(amittURL, eAttackURL, preAttackURL, mURL, useTAXIIServer, taxiiURL, taxiiCollections){
+        this.amitt_URL = amittURL;
         this.enterpriseAttackURL = eAttackURL;
         this.pre_attack_URL = preAttackURL;
         this.mobileDataURL = mURL;
@@ -49,7 +51,7 @@ export class DataService {
 
     getEnterpriseData(refresh: boolean = false, useTAXIIServer: boolean = false){
         if (useTAXIIServer) {
-            console.log("fetching data from TAXII server") 
+            console.log("fetching data from TAXII server")
             let conn = new TaxiiConnect(this.taxiiURL, '', '', 5000);
             let enterpriseCollectionInfo: any = {
                 'id': this.taxiiCollections['enterprise_attack'],
@@ -80,6 +82,45 @@ export class DataService {
         else if (refresh || !this.enterpriseData$){
             this.enterpriseData$ = Observable.forkJoin(
                 this.http.get(this.enterpriseAttackURL),
+                this.http.get(this.pre_attack_URL)
+            );
+        }
+        return this.enterpriseData$ //observable
+    }
+
+    getAmittData(refresh: boolean = false, useTAXIIServer: boolean = false){
+        if (useTAXIIServer) {
+            console.log("fetching data from TAXII server")
+            let conn = new TaxiiConnect(this.taxiiURL, '', '', 5000);
+            let amittCollectionInfo: any = {
+                'id': this.taxiiCollections['amitt'],
+                'title': 'AMITT Misinformation Framework',
+                'description': '',
+                'can_read': true,
+                'can_write': false,
+                'media_types': ['application/vnd.oasis.stix+json']
+            }
+            const amittCollection = new Collection(amittCollectionInfo, this.taxiiURL + 'stix', conn);
+
+            let preattackCollectionInfo: any = {
+                'id': this.taxiiCollections['pre_attack'],
+                'title': 'Pre-ATT&CK',
+                'description': '',
+                'can_read': true,
+                'can_write': false,
+                'media_types': ['application/vnd.oasis.stix+json']
+            }
+
+            const preattackCollection = new Collection(preattackCollectionInfo, this.taxiiURL + 'stix', conn);
+
+            this.enterpriseData$ = Observable.forkJoin(
+                fromPromise(amittCollection.getObjects('', undefined)),
+                fromPromise(preattackCollection.getObjects('', undefined))
+            )
+        }
+        else if (refresh || !this.enterpriseData$){
+            this.enterpriseData$ = Observable.forkJoin(
+                this.http.get(this.amitt_URL),
                 this.http.get(this.pre_attack_URL)
             );
         }
@@ -127,6 +168,7 @@ export class DataService {
     }
 
     setTacticOrder(retrievedTactics){
+      console.log(retrievedTactics)
         // this.totalTacticsOrder = retrievedTactics;
         for(var i = 0; i < retrievedTactics.length; i++){
             var phase = retrievedTactics[i].phase;

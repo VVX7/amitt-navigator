@@ -286,7 +286,7 @@ export class DataTableComponent implements AfterViewInit {
         let filename = this.viewModel.name.replace(/ /g, "_") + ".json";
         // FileSaver.saveAs(blob, this.viewModel.name.replace(/ /g, "_") + ".json");
         this.saveBlob(blob, filename);
-        
+
     }
 
     saveBlob(blob, filename){
@@ -317,7 +317,7 @@ export class DataTableComponent implements AfterViewInit {
         worksheet.columns = this.dataService.tacticNames(this.filteredTechniques).map(tacticname => {
             return {header: tacticname, key: tacticname}
         })
-       
+
         // CREATE CELLS
         for (const tacticName of this.dataService.tacticNames(this.filteredTechniques)) {
             let col = worksheet.getColumn(tacticName);
@@ -331,10 +331,10 @@ export class DataTableComponent implements AfterViewInit {
             col.eachCell((cell, rowNumber) => {
                 if (rowNumber > 1) { //skip tactic header
 
-                    let index = rowNumber - 2; //skip header, and exceljs indexes starting at 1 
+                    let index = rowNumber - 2; //skip header, and exceljs indexes starting at 1
                     if (cell.value && cell.value != "") { // handle jagged cols
                         // console.log(cell.value);
-                        
+
                         let tvm = this.viewModel.getTechniqueVM(techniques[index].technique_tactic_union_id);
                         if (tvm.enabled) {
                             if (tvm.color) { //manually assigned
@@ -356,7 +356,7 @@ export class DataTableComponent implements AfterViewInit {
             })
         }
 
-        // STYLE      
+        // STYLE
         // width of cols
         worksheet.columns.forEach(column => {column.width = column.header.length < 20 ? 20 : column.header.length});
         //tactic background
@@ -384,7 +384,8 @@ export class DataTableComponent implements AfterViewInit {
     constructor(private dataService: DataService, private tabs: TabsComponent, private sanitizer: DomSanitizer, private viewModelsService: ViewModelsService, private configService: ConfigService) {
         this.ds = dataService;
         this.ds.getConfig().subscribe((config: Object) => {
-            this.ds.setUpURLs(config["enterprise_attack_url"],
+            this.ds.setUpURLs(config["amitt_url"],
+                                config["enterprise_attack_url"],
                                 config["pre_attack_url"],
                                 config["mobile_data_url"],
                                 config["taxii_server"]["enabled"],
@@ -404,6 +405,11 @@ export class DataTableComponent implements AfterViewInit {
                     // let bundle = mobileData[1]["objects"].concat(mobileData[0]["objects"]);
                     this.parseBundle(mobileData);
                 });
+            } else if (domain === "amitt"){
+                dataService.getAmittData(false, config["taxii_server"]["enabled"]).subscribe((amittData: Object[]) => {
+                    // let bundle = mobileData[1]["objects"].concat(mobileData[0]["objects"]);
+                    this.parseAmittBundle(amittData);
+                });
             }
         });
     }
@@ -416,7 +422,7 @@ export class DataTableComponent implements AfterViewInit {
         element.style.left = -10000 + "px";
     }
 
-    
+
     ////////////////////////////////////////////////////
     // Creates a mapping of each tactic and its phase //
     ////////////////////////////////////////////////////
@@ -445,7 +451,7 @@ export class DataTableComponent implements AfterViewInit {
             // tactic info for this phase
             let tacOrders = {}
             let tacticIDToDef = {}
-            
+
             //for objects in this phase bundle
             let objects = phase.objects;
             for(var i = 0; i < objects.length; i++){
@@ -486,7 +492,7 @@ export class DataTableComponent implements AfterViewInit {
                 let tacOrder = tacOrders[Object.keys(tacOrders)[0]]
                 tactics = tactics.concat(tacOrder.map((tacID) => tacticIDToDef[tacID]))
             }
-            
+
         }
 
         this.ds.setTacticOrder(tactics);
