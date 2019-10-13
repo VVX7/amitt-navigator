@@ -256,9 +256,11 @@ export class DataTableComponent implements AfterViewInit {
                     for(let platform of techniquePlatforms) {
                         console.log("platform");
                         console.log(platform);
-                        if (currentPlatformsSet.has(platform.toLowerCase())) {
+                        for(let i of platform) {
+                          if (currentPlatformsSet.has(i.toLowerCase())) {
                             filteredTechniques.push(technique);
                             break;
+                          }
                         }
                     }
                 }
