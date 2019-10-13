@@ -81,9 +81,9 @@ export class ViewModelsService {
             scoreExpression = scoreExpression.toLowerCase() //should be enforced by input, but just in case
             let score_min = Infinity;
             let score_max = -Infinity;
-            
+
             //get list of all technique IDs used in the VMs
-            let techniqueIDs = new Set<string>(); 
+            let techniqueIDs = new Set<string>();
             scoreVariables.forEach(function(vm, key) {
                 vm.techniqueVMs.forEach(function(techniqueVM, techniqueID) {
                     techniqueIDs.add(techniqueID);
@@ -131,7 +131,7 @@ export class ViewModelsService {
                     });
                     //don't record a result if none of VMs had a score for this technique
                     //did at least one technique have a score for this technique?
-                    if (misses < scoreVariables.size) { 
+                    if (misses < scoreVariables.size) {
                         // console.log(scope);
                         let mathResult = math.eval(scoreExpression, scope);
                         if (is.boolean(mathResult)) {
@@ -184,7 +184,7 @@ export class ViewModelsService {
         if (legendItems) {
             result.legendItems = JSON.parse(JSON.stringify(legendItems.legendItems));
         }
-        
+
         result.name = layerName;
         // console.log(result)
         this.viewModels.push(result)
@@ -860,7 +860,7 @@ export class ViewModel {
                 if (m.valid()) this.metadata.push(m)
             }
         }
-        
+
         this.updateGradient();
     }
 
@@ -1100,6 +1100,8 @@ export class Filter {
             this.platforms = {selection: ["Windows", "Linux", "macOS"], options: ["Windows", "Linux", "macOS", "AWS", "GCP", "Azure", "Azure AD", "Office 365", "SaaS"]}
         } else if (domain == "mitre-mobile") {
             this.platforms = {selection: ["Android", "iOS"], options: ["Android", "iOS"]}
+        } else if (domain == "amitt") {
+            this.platforms = {selection: ["Windows", "Linux", "macOS"], options: ["Windows", "Linux", "macOS", "AWS", "GCP", "Azure", "Azure AD", "Office 365", "SaaS"]}
         } else {
             console.error("unknown domain", domain);
         }
