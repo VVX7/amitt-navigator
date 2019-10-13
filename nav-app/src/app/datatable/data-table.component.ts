@@ -408,7 +408,7 @@ export class DataTableComponent implements AfterViewInit {
             } else if (domain === "amitt"){
                 dataService.getAmittData(false, config["taxii_server"]["enabled"]).subscribe((amittData: Object[]) => {
                     // let bundle = mobileData[1]["objects"].concat(mobileData[0]["objects"]);
-                    this.parseAmittBundle(amittData);
+                    this.parseBundle(amittData);
                 });
             }
         });
