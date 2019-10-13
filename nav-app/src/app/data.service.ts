@@ -168,7 +168,7 @@ export class DataService {
     }
 
     setTacticOrder(retrievedTactics){
-      console.log(retrievedTactics)
+        console.log(retrievedTactics);
         // this.totalTacticsOrder = retrievedTactics;
         for(var i = 0; i < retrievedTactics.length; i++){
             var phase = retrievedTactics[i].phase;
