@@ -232,8 +232,6 @@ export class DataTableComponent implements AfterViewInit {
     //////////////////////////////////////////////////////////////////////////////////
 
     filterPlatforms(preFilteredTechniques){
-        console.log("preFilteredTechniques");
-        console.log(preFilteredTechniques);
         var selectedPlatforms: string[] = this.viewModel.filters.platforms.selection;
 
         if(selectedPlatforms.length === 0){
@@ -242,8 +240,6 @@ export class DataTableComponent implements AfterViewInit {
             return preFilteredTechniques;
         } else {
             var currentPlatformsSet = new Set(selectedPlatforms.map(function(platform) { return platform.toLowerCase() } ));
-            console.log("currentPlatformsSet");
-            console.log(currentPlatformsSet);
             var filteredTechniques: Technique[] = [];
             // For each technique
             for(var i = 0; i < preFilteredTechniques.length; i++){
@@ -254,8 +250,6 @@ export class DataTableComponent implements AfterViewInit {
                 } else {
                     // check if the technique has a platform in the current set
                     for(let platform of techniquePlatforms) {
-                        console.log("platform");
-                        console.log(platform);
                         for(let i of platform) {
                           if (currentPlatformsSet.has(i.toLowerCase())) {
                             filteredTechniques.push(technique);
