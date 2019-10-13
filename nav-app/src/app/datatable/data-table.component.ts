@@ -242,6 +242,8 @@ export class DataTableComponent implements AfterViewInit {
             return preFilteredTechniques;
         } else {
             var currentPlatformsSet = new Set(selectedPlatforms.map(function(platform) { return platform.toLowerCase() } ));
+            console.log("currentPlatformsSet");
+            console.log(currentPlatformsSet);
             var filteredTechniques: Technique[] = [];
             // For each technique
             for(var i = 0; i < preFilteredTechniques.length; i++){
