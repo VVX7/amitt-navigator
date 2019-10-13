@@ -232,6 +232,8 @@ export class DataTableComponent implements AfterViewInit {
     //////////////////////////////////////////////////////////////////////////////////
 
     filterPlatforms(preFilteredTechniques){
+        console.log("preFilteredTechniques");
+        console.log(preFilteredTechniques);
         var selectedPlatforms: string[] = this.viewModel.filters.platforms.selection;
 
         if(selectedPlatforms.length === 0){
@@ -250,6 +252,8 @@ export class DataTableComponent implements AfterViewInit {
                 } else {
                     // check if the technique has a platform in the current set
                     for(let platform of techniquePlatforms) {
+                        console.log("platform");
+                        console.log(platform);
                         if (currentPlatformsSet.has(platform.toLowerCase())) {
                             filteredTechniques.push(technique);
                             break;
