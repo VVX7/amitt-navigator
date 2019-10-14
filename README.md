@@ -41,7 +41,7 @@ Use our [GitHub Issue Tracker](https://github.com//amitt-navigator/issues) to le
 
 #### Running the Navigator offline
 1. Install the Navigator as per instructions above.
-2. Follow instructions under [loading content from local files](#Loading-content-from-local-files) to configure the Navigator to populate the matrix without an internet connection. For AM!TT, use [this file](https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json). For pre-AM!TT, use [this file](https://raw.githubusercontent.com/mitre/cti/master/pre-attack/pre-attack.json).
+2. Follow instructions under [loading content from local files](#Loading-content-from-local-files) to configure the Navigator to populate the matrix without an internet connection. For AM!TT, use [this file](https://raw.githubusercontent.com/VVX7/cti/master/amitt-attack/amitt-attack.json). For pre-AM!TT, use [this file](https://raw.githubusercontent.com/VVX7/cti/master/amitt-pre-attack/amitt-pre-attack.json).
 
 #### Common issues
 1. If serving or compiling the application gives the warning `Module not found: can't resolve 'fs'`, run the command `npm run postinstall`. The postinstall step usually runs automatically after `npm install` to patch the `fs` issue, but in some environments it must be run manually.
@@ -90,13 +90,12 @@ Example custom context menu object:
 4. Set the values of the `collections` dictionary to the collection UUIDs your TAXII server has set
 
 ## Loading content from local files
-*It's possible to populate the the Navigator using files that consist of bundles of STIX objects, similarly to [this](https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json) file.*
+*It's possible to populate the the Navigator using files that consist of bundles of STIX objects, similarly to [this](https://raw.githubusercontent.com/VVX7/cti/master/amitt-attack/amitt-attack.json) file.*
 1. Put the stix bundles in `src/assets`. This will tell the server hosting the Navigator to host the data as well.
 2. Configure the navigator to use these files. In `src/assets/config.json`:
-    1.  Change `enterprise_attack_url` to the path to the enterprise-attack bundle (e.g `assets/enterprise-attack.json`).
-    2. Change `mobile_attack_url` to the path to the mobile-attack bundle (e.g `assets/mobile-attack.json`).
-    3. Change `pre_attack_url` to the path to the pre-attack bundle (e.g `assets/pre-attack.json`).
-    4. Change `taxii_server.enabled` to false.
+    1.  Change `amitt` to the path to the amitt-attack bundle (e.g `assets/amitt-attack.json`).
+    2. Change `amitt_pre_attack_url` to the path to the pre-attack bundle (e.g `assets/amitt-pre-attack.json`).
+    3. Change `taxii_server.enabled` to false.
 
 ## Running the Docker File
 1. Navigate to the **nav-app** directory
@@ -137,13 +136,13 @@ Features can also be disabled using the _create customized Navigator_ feature. R
 ## Embedding the Navigator in a Webpage
 If you want to embed the Navigator in a webpage, use an iframe:
 ```HTML
-<iframe src="https://VVX7.github.io/amitt-navigator/enterprise/" width="1000" height="500"></iframe>
+<iframe src="https://VVX7.github.io/amitt-navigator/amitt/" width="1000" height="500"></iframe>
 ```
 If you want to imbed a version of the Navigator with specific features removed (e.g tabs, adding annotations), or with a default layer, we recommend using the _create customized Navigator_ feature. Refer to the in-application help page section "Customizing the Navigator" for more details.
 
 The following is an example iframe which embeds our [Brexit](layers/data/samples/Brexit.json) layer with tabs and the ability to add annotations removed:
 ```HTML
-<iframe src="https://VVX7.github.io/amitt-navigator/enterprise/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2FVVX7%2Famitt-navigator%2Fmaster%2Flayers%2Fdata%2Fsamples%2FBrexit.json&tabs=false&selecting_techniques=false" width="1000" height="500"></iframe>
+<iframe src="https://VVX7.github.io/amitt-navigator/amitt/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2FVVX7%2Famitt-navigator%2Fmaster%2Flayers%2Fdata%2Fsamples%2FBrexit.json&tabs=false&selecting_techniques=false" width="1000" height="500"></iframe>
 ```
 
 ## Related MITRE Work
