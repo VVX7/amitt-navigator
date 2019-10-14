@@ -16,3 +16,8 @@ limitations under the License.
 
 This project makes use of ATT&CK™
 ATT&CK™ Terms of Use - https://attack.mitre.org/resources/terms-of-use/
+
+AM!TT was created by the Credibilty Coalition's Misinfosec working group,
+which is the standards group connected to Misinfosec.
+
+AM!TT is licensed under CC-BY-4.0
