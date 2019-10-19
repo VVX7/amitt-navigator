@@ -6692,7 +6692,7 @@ var DataService = /** @class */ (function () {
         this.totalTacticsOrder = [];
         // URLs in case config file doesn't load properly
         this.amitt_URL = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-attack/amitt-attack.json";
-        this.amitt_pre_attack_URL = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-pre-attack/amitt-pre-attack.json";
+        this.pre_amitt_URL = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-pre-attack/amitt-pre-attack.json";
         this.enterpriseAttackURL = "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json";
         this.pre_attack_URL = "https://raw.githubusercontent.com/mitre/cti/master/pre-attack/pre-attack.json";
         this.mobileDataURL = "https://raw.githubusercontent.com/mitre/cti/master/mobile-attack/mobile-attack.json";
@@ -6700,8 +6700,9 @@ var DataService = /** @class */ (function () {
         this.taxiiURL = '';
         this.taxiiCollections = [];
     }
-    DataService.prototype.setUpURLs = function (amittURL, eAttackURL, preAttackURL, mURL, useTAXIIServer, taxiiURL, taxiiCollections) {
+    DataService.prototype.setUpURLs = function (amittURL, preAmittURL, eAttackURL, preAttackURL, mURL, useTAXIIServer, taxiiURL, taxiiCollections) {
         this.amitt_URL = amittURL;
+        this.pre_amitt_URL = preAmittURL;
         this.enterpriseAttackURL = eAttackURL;
         this.pre_attack_URL = preAttackURL;
         this.mobileDataURL = mURL;
@@ -6774,7 +6775,7 @@ var DataService = /** @class */ (function () {
             this.enterpriseData$ = rxjs_Rx__WEBPACK_IMPORTED_MODULE_2__["Observable"].forkJoin(Object(rxjs_observable_fromPromise__WEBPACK_IMPORTED_MODULE_3__["fromPromise"])(amittCollection.getObjects('', undefined)), Object(rxjs_observable_fromPromise__WEBPACK_IMPORTED_MODULE_3__["fromPromise"])(preattackCollection.getObjects('', undefined)));
         }
         else if (refresh || !this.enterpriseData$) {
-            this.enterpriseData$ = rxjs_Rx__WEBPACK_IMPORTED_MODULE_2__["Observable"].forkJoin(this.http.get(this.amitt_URL), this.http.get(this.amitt_pre_attack_URL));
+            this.enterpriseData$ = rxjs_Rx__WEBPACK_IMPORTED_MODULE_2__["Observable"].forkJoin(this.http.get(this.amitt_URL), this.http.get(this.pre_amitt_URL));
         }
         return this.enterpriseData$; //observable
     };
@@ -6991,7 +6992,7 @@ var DataTableComponent = /** @class */ (function () {
         this.toolTipOverflows = false;
         this.ds = dataService;
         this.ds.getConfig().subscribe(function (config) {
-            _this.ds.setUpURLs(config["amitt_url"], config["enterprise_attack_url"], config["pre_attack_url"], config["mobile_data_url"], config["taxii_server"]["enabled"], config["taxii_server"]["url"], config["taxii_server"]["collections"]);
+            _this.ds.setUpURLs(config["amitt_url"], config["amitt_pre_attack_url"], config["enterprise_attack_url"], config["pre_attack_url"], config["mobile_data_url"], config["taxii_server"]["enabled"], config["taxii_server"]["url"], config["taxii_server"]["collections"]);
             var domain = config["domain"];
             _this.customContextMenuItems = config["custom_context_menu_items"];
             if (domain === "mitre-enterprise") {
