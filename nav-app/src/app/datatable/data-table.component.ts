@@ -387,7 +387,7 @@ export class DataTableComponent implements AfterViewInit {
         this.ds = dataService;
         this.ds.getConfig().subscribe((config: Object) => {
             this.ds.setUpURLs(config["amitt_url"],
-                                config["pre_amitt_URL"],
+                                config["amitt_pre_attack_url"],
                                 config["enterprise_attack_url"],
                                 config["pre_attack_url"],
                                 config["mobile_data_url"],
