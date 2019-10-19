@@ -6691,7 +6691,8 @@ var DataService = /** @class */ (function () {
         this.prepareTacticsOrder = [];
         this.totalTacticsOrder = [];
         // URLs in case config file doesn't load properly
-        this.amitt_URL = "assets/amitt-attack.json";
+        this.amitt_URL = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-attack/amitt-attack.json";
+        this.amitt_pre_attack_URL = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-pre-attack/amitt-pre-attack.json";
         this.enterpriseAttackURL = "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json";
         this.pre_attack_URL = "https://raw.githubusercontent.com/mitre/cti/master/pre-attack/pre-attack.json";
         this.mobileDataURL = "https://raw.githubusercontent.com/mitre/cti/master/mobile-attack/mobile-attack.json";
@@ -6773,7 +6774,7 @@ var DataService = /** @class */ (function () {
             this.enterpriseData$ = rxjs_Rx__WEBPACK_IMPORTED_MODULE_2__["Observable"].forkJoin(Object(rxjs_observable_fromPromise__WEBPACK_IMPORTED_MODULE_3__["fromPromise"])(amittCollection.getObjects('', undefined)), Object(rxjs_observable_fromPromise__WEBPACK_IMPORTED_MODULE_3__["fromPromise"])(preattackCollection.getObjects('', undefined)));
         }
         else if (refresh || !this.enterpriseData$) {
-            this.enterpriseData$ = rxjs_Rx__WEBPACK_IMPORTED_MODULE_2__["Observable"].forkJoin(this.http.get(this.amitt_URL), this.http.get(this.pre_attack_URL));
+            this.enterpriseData$ = rxjs_Rx__WEBPACK_IMPORTED_MODULE_2__["Observable"].forkJoin(this.http.get(this.amitt_URL), this.http.get(this.amitt_pre_attack_URL));
         }
         return this.enterpriseData$; //observable
     };
