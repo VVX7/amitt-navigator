@@ -24,7 +24,7 @@ export class DataService {
 
     // URLs in case config file doesn't load properly
     private amitt_URL: string = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-attack/amitt-attack.json";
-    private amitt_pre_attack_URL: string = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-pre-attack/amitt-pre-attack.json";
+    private pre_amitt_URL: string = "https://raw.githubusercontent.com/VVX7/cti/master/amitt-pre-attack/amitt-pre-attack.json";
     private enterpriseAttackURL: string = "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json";
     private pre_attack_URL: string = "https://raw.githubusercontent.com/mitre/cti/master/pre-attack/pre-attack.json";
     private mobileDataURL: string = "https://raw.githubusercontent.com/mitre/cti/master/mobile-attack/mobile-attack.json";
@@ -33,8 +33,9 @@ export class DataService {
     private taxiiURL: string = '';
     private taxiiCollections: String[] = [];
 
-    setUpURLs(amittURL, eAttackURL, preAttackURL, mURL, useTAXIIServer, taxiiURL, taxiiCollections){
+    setUpURLs(amittURL, preAmittURL, eAttackURL, preAttackURL, mURL, useTAXIIServer, taxiiURL, taxiiCollections){
         this.amitt_URL = amittURL;
+        this.pre_amitt_URL = preAmittURL;
         this.enterpriseAttackURL = eAttackURL;
         this.pre_attack_URL = preAttackURL;
         this.mobileDataURL = mURL;
@@ -122,7 +123,7 @@ export class DataService {
         else if (refresh || !this.enterpriseData$){
             this.enterpriseData$ = Observable.forkJoin(
                 this.http.get(this.amitt_URL),
-                this.http.get(this.amitt_pre_attack_URL)
+                this.http.get(this.pre_amitt_URL)
             );
         }
         return this.enterpriseData$ //observable
