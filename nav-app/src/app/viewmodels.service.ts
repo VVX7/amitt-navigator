@@ -1101,7 +1101,7 @@ export class Filter {
         } else if (domain == "mitre-mobile") {
             this.platforms = {selection: ["Android", "iOS"], options: ["Android", "iOS"]}
         } else if (domain == "amitt") {
-            this.platforms = {selection: ["Windows", "Linux", "macOS"], options: ["Windows", "Linux", "macOS", "AWS", "GCP", "Azure", "Azure AD", "Office 365", "SaaS"]}
+            this.platforms = {selection: ["Cyber", "Physical"], options: []}
         } else {
             console.error("unknown domain", domain);
         }
