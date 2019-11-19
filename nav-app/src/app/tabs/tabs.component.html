@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500" rel="stylesheet">
 <div *ngIf="configService.getFeature('header')" [style.margin-bottom]="configService.getFeature('tabs') ? '0px' : '15px'" class="header" >
     <div class="logo">
-        <a href="https://misinfosecproject.github.io/tools_amitt.html">AM!TT Navigator</a>
+        <a href="https://github.com/mitre-attack/attack-navigator">Based on MITRE ATT&CK&copy; Navigator</a>
     </div>
     <div *ngIf="configService.getFeature('tabs')" class="helpButton" matTooltip="help" (click)="newHelpTab(forceNew=false)">
         ?
