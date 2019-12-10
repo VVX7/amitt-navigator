@@ -470,24 +470,23 @@ export class DataTableComponent implements AfterViewInit {
                         relationships[object.id] = object;
                     } else if(object.type === "x-mitre-tactic"){
                         //store tactic info by their IDs, since we don't yet have order
-                        tacticIDToDef[object.id] ={
-                            "tactic": object.x_mitre_shortname,
-                            "description": object.description,
-                            "phase": phase.name,
-                            "url": object["external_references"][0]["url"]
+                        tacticIDToDef[object.id] = {
+                          "tactic": object.x_mitre_shortname,
+                          "description": object.description,
+                          "phase": phase.name,
+                          "url": object["external_references"][0]["url"]
                         }
                     } else if(object.type === "x-amitt-tactic"){
                         //store tactic info by their IDs, since we don't yet have order
-                        tacticIDToDef[object.id] ={
-                            "tactic": object.x_amitt_shortname,
-                            "description": object.description,
-                            "phase": phase.name,
-                            "url": object["external_references"][0]["url"]
+                        tacticIDToDef[object.id] = {
+                          "tactic": object.x_amitt_shortname,
+                          "description": object.description,
+                          "phase": phase.name,
+                          "url": object["external_references"][0]["url"]
                         }
                     } else if (object.type === "x-mitre-matrix") {
                         //matrix defines the order of tactics in this phase
                         tacOrders[object.name] = object.tactic_refs;
-                    }
                     } else if (object.type === "x-amitt-matrix") {
                         //matrix defines the order of tactics in this phase
                         tacOrders[object.name] = object.tactic_refs;
